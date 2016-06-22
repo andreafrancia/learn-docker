@@ -1,6 +1,60 @@
 Esercizio 1) lanciare docker --version
+======================================
+
+Per completare l'esercizio ti basta lanciare `docker --version`, se ti funziona è probabile che sei riuscito ad installare docker.
+
+Esempio:
+
+$ docker --version
+Docker version 1.11.2, build b9f10c9
+
 Esercizio 2) avviare l'hello-world di docker
+============================================
+
+Per completare l'esercizio devi riuscire a lanciare l'hello-world di docker. Il testo dell'esercizio è volutamente vago, puoi chiedere suggerimenti.
+
 Esercizio 3) cancellare l'immagine di hello-world
+=================================================
+
+Per completare l'esercizio devi riuscire a dimostrarmi che hai cancellato l'immagine. Sta a te scoprire come si cancella e come si verifica che è stata cancellata.
+
 Esercizio 4) lanciare il whalesay di docker
-Esercizio 5) produrre una nuova immagine basata sul whalesay chiamata "balenone"
+===========================================
+
+Per completare l'esercizio devi riuscire a lanciare docker whalesay, anche in questo caso sono volutamente vago. In ogni caso sul tuo computer dovrà apparire un ouptput simile a questo:
+
+       ______
+      < ciao >
+       ------
+          \
+           \
+            \
+                          ##        .
+                    ## ## ##       ==
+                 ## ## ## ##      ===
+             /""""""""""""""""___/ ===
+        ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+             \______ o          __/
+              \    \        __/
+                \____\______/
+
+L'importante è che ci sia la balena. Il testo nel fumetto potrebbe essere diverso.
+
+Esercizio 5) preparara una nuova immagine "balenone" basata sul whalesay
+========================================================================
+
+Per completare l'esercizio è sufficiente ottenere che nell'output di `docker images` appaia un immagine con repository "balenone" e che sia creata come modifica di whalesay.
+
 Esercizio 6) pushare il balenone sul docker hub
+===============================================
+
+Per completare l'esercizio io devo essere in grado di lanciare una immagine che tu hai prodotto scrivendo sul mio computer:
+
+  docker run <tuo-username>/whalesay
+
+Esecizio 7) scoprire dove sono memorizzate le immagini
+======================================================
+
+Basta che mi fai vedere la directory dove sono memorizzate le immagini sul tuo computer e mi dimostri che è quella usata da docker.
+
+ 
