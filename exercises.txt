@@ -1,0 +1,6 @@
+Esercizio 1) lanciare docker --version
+Esercizio 2) avviare l'hello-world di docker
+Esercizio 3) cancellare l'immagine di hello-world
+Esercizio 4) lanciare il whalesay di docker
+Esercizio 5) produrre una nuova immagine basata sul whalesay chiamata "balenone"
+Esercizio 6) pushare il balenone sul docker hub
